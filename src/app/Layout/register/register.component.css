@@ -1,0 +1,50 @@
+input[type=text], input[type=number], input[type=select], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  p {
+      font-size: 17px;
+  }
+
+  .space {
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 5%;
+  }
+
+  input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+}
+
+.label {
+    font-size: 17px;
+    vertical-align: center;
+    line-height: 10px;
+}
+
+
+
+  .style{
+    background-color: transparent;
+    border: transparent;
+    border-style: none;
+    box-shadow: none;
+    object-position: center;
+    margin-left: 30%;
+    margin-right: 20%;
+  }
+
+  .form-control.ng-touched.ng-invalid {
+    border: 1px solid red;
+  }
+
+  .form-control.ng-touched.ng-valid {
+    border: 1px solid green;
+  }

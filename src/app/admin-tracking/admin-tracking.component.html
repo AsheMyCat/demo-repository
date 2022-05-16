@@ -1,0 +1,26 @@
+<div id="map1" class = "map"></div>
+<table class = "table">
+    <thead>
+        <tr>
+            <th scope = "col">#</th>
+            <th scope = "col">Surname</th>
+            <th scope = "col">First Name</th>
+            <th scope = "col">Middle Name</th>
+            <th scope = "col">Email Address</th>
+            <th scope = "col">Latitude</th>
+            <th scope = "col">Longitude</th>
+
+        </tr>
+    </thead>
+<tbody>
+    <tr *ngFor = "let registers of Register; let i = index">
+        <th scope = "row">{{i + 1}}</th>
+        <td>{{ registers.Surname }}</td>
+        <td>{{ registers.First_Name }}</td>
+        <td>{{ registers.Middle_Name }}</td>
+        <td>{{ registers.Email_Address }}</td>
+       
+</table>
+
+
+

@@ -1,0 +1,41 @@
+.carousel { 
+    position: fixed;
+    object-position: absolute;
+
+  }
+  
+
+  /*For Mat Card */
+  
+  .space {
+    margin-left: 68%;
+    margin-right: 2%;
+    margin-top: 2%;
+    position: fixed;
+    background-color: whitesmoke;
+  }
+
+  .space2 {
+    margin-left: 68%;
+    margin-right: 2%;
+    margin-top: 13%;
+    position: fixed;
+    background-color: whitesmoke;
+  }
+
+  .align {
+    text-align: right;
+  }
+
+  .no-indicators .carousel-indicators {
+    display: none;
+  }
+
+  .size{
+    height: auto;
+    width: auto;
+  }
+
+  pos {
+    position: fixed;
+  }

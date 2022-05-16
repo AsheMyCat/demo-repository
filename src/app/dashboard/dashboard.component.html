@@ -1,0 +1,34 @@
+<br>
+<br>
+<mat-card>
+<mat-list *ngIf="(register | async)">
+    <mat-divider></mat-divider>
+    <mat-list-item>Surname: {{ (register | async)?.Surname}}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>First Name: {{ (register | async)?.First_Name}}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Middle Name: {{ (register | async)?.Middle_Name}}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Suffx: {{ (register | async)?.Suffix}}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Age: {{ (register | async)?.Age }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Birthday: {{ (register | async)?.Birthday }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Birthplace: {{ (register | async)?.Birthplace }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Address: {{ (register | async)?.Address }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Contact Number: {{ (register | async)?.Contact_Number }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Religion: {{ (register | async)?.Religion }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Sex: {{ (register| async)?.Sex }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Civil Status: {{ (register | async)?.Civil_Status }}</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Email Address: {{ (register | async)?.Email_Address }}</mat-list-item>
+    <mat-divider></mat-divider>
+</mat-list>
+
+</mat-card>

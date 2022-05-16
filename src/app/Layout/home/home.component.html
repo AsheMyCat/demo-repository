@@ -1,0 +1,11 @@
+<div fxLayout="row" fxLayoutAlign="space-around stretch" class = "pos" aria-activedescendant="invisible">
+
+  <ngb-carousel *ngIf="images">
+
+    <ng-template ngbSlide *ngFor="let image of images">
+      <div class="picsum-img-wrapper">
+        <img [src]="image" class = "size">
+       </div>
+    </ng-template>
+  </ngb-carousel>
+  </div>

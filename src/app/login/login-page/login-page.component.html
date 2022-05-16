@@ -1,0 +1,21 @@
+<mat-card>
+    <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+        <h2>Login</h2>
+            <div>
+            <input type ="email" autocomplete="off" formControlName = "Email_Address" type="email" Input placeholder="Email" class = "form-control" >
+            </div>
+            <br>
+            <input type ="password"  autocomplete="off" formControlName = "Password" type="password" Input placeholder="Password" class = "form-control">
+        
+        <div *ngIf="firebaseErrorMessage != ''" class="error-style">
+            <span>{{ firebaseErrorMessage }}</span>
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button color="primary">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button><a routerLink = "/register" routerLinkActive = "active">Sign Up</a></button>
+    </form>
+</mat-card>
+
+

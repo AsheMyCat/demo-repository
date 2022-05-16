@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "mydemo1235"
+  },
+  "targets": {
+    "mydemoa13": {
+      "hosting": {
+        "demo": [
+          "mydemoa13"
+        ]
+      }
+    },
+    "mydemo1235": {
+      "hosting": {
+        "demo": [
+          "mydemo1235"
+        ]
+      }
+    }
+  }
+}
